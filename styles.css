@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 360px;
+    height: 405px;
+    top: 4px;
+    border: 1px solid;
+    border-color: #BEBEBE;
+    margin: 20px;
+}
+
+#equities{
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;    
+text-decoration: underline;
+text-decoration-color: #fcc200;
+padding-left: 24px ;
+}
