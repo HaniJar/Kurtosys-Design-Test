@@ -1,23 +1,70 @@
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.card{
-    width: 360px;
-    height: 405px;
-    top: 4px;
-    border: 1px solid;
-    border-color: #BEBEBE;
-    margin: 20px;
+.card {
+  width: 360px;
+  height: 405px;
+  top: 4px;
+  border: 1px solid;
+
+  border-color: #fcc200, #bebebe, #bebebe, #bebebe;
+  margin: 20px;
 }
 
-#equities{
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;    
-text-decoration: underline;
-text-decoration-color: #fcc200;
-padding-left: 24px ;
+#equities {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-decoration-color: #fcc200;
+  padding-left: 24px;
+}
+
+h3 {
+  padding-left: 24px;
+  font-size: 16px;
+}
+
+#price {
+  padding-left: 24px;
+  font-size: 14px;
+}
+
+#money {
+  padding-left: 182px;
+}
+
+#change {
+  padding-left: 129px;
+}
+
+#value {
+  padding-left: 172px;
+}
+
+hr {
+  margin-left: 24px;
+  margin-right: 30px;
+  color: #e3e3e3;
+}
+
+button {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 24px;
+  padding: 15px;
+  padding-right: 25px;
+  background-color: #fcc200;
+  border: none;
+}
+#icon {
+  margin-left: 5px;
+}
+
+#view {
+  margin-left: 852px;
+  font-size: 14px;
 }
