@@ -1,3 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.heading {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 68px;
+}
+
+#funds {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  padding-top: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -9,54 +41,81 @@
   height: 405px;
   top: 4px;
   border: 1px solid;
-
-  border-color: #fcc200, #bebebe, #bebebe, #bebebe;
+  border-color: #bebebe;
   margin: 20px;
+  border-top: 4px solid #FCC200;
 }
 
 #equities {
+  font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-decoration: underline;
   text-decoration-color: #fcc200;
   padding-left: 24px;
+  padding-bottom:  15px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  
 }
 
-h3 {
+#kapital {
+ font-family: 'Bebas Neue', cursive;
   padding-left: 24px;
-  font-size: 16px;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 #price {
   padding-left: 24px;
+  padding: 20px;
+  padding-top: 10px;
   font-size: 14px;
+  font-family: 'PT Serif', serif;
+  padding-left: 24px;
 }
 
 #money {
-  padding-left: 182px;
+  padding-left: 185px;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
 #change {
-  padding-left: 129px;
+  padding-left: 123px;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
 #value {
   padding-left: 172px;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
 hr {
   margin-left: 24px;
-  margin-right: 30px;
-  color: #e3e3e3;
+  margin-right: 24px;
+  border-color: #E3E3E3;
+}
+
+.divide{
+  height: 1px;
+  background-color: #E3E3E3;
+  width: 88%;
+  justify-self: center;
+  margin-left: 19.5px;
 }
 
 button {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
   margin-left: 24px;
-  padding: 15px;
-  padding-right: 25px;
+  padding: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
   background-color: #fcc200;
   border: none;
 }
@@ -67,4 +126,12 @@ button {
 #view {
   margin-left: 852px;
   font-size: 14px;
+}
+
+#arrow-color {
+  color: #fcc200;
+}
+
+img {
+  padding-left: 3px;
 }
